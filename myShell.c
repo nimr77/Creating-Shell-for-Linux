@@ -164,7 +164,7 @@ int ownCmdHandler(char** parsed)
 	int NoOfOwnCmds = 5, i, switchOwnArg = 0; 
 	char* ListOfOwnCmds[NoOfOwnCmds]; 
 	char* username; 
-
+	///List of the custom commands 
 	ListOfOwnCmds[0] = "exit"; 
 	ListOfOwnCmds[1] = "cd"; 
 	ListOfOwnCmds[2] = "help"; 
